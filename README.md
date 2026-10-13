@@ -1,6 +1,6 @@
-# SELAH · Revista cristiana juvenil
+# SELAH · Revista cristiana
 
-Publicación editorial juvenil desde San Luis Potosí.
+Publicación cristiana de reflexión bíblica, cultura, fe y vida comunitaria para todas las generaciones, desde San Luis Potosí.
 
 **Estado:** portal en implementación. La edición piloto de octubre de 2026 tiene 32 páginas en formato media carta.
 
