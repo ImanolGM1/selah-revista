@@ -1,0 +1,53 @@
+media:
+  input: assets/uploads
+  output: /assets/uploads
+content:
+  - name: datos
+    label: Identidad y contacto
+    type: file
+    path: content/config.json
+    format: json
+    fields:
+      - { name: nombre, label: Nombre, type: string }
+      - { name: lema, label: Lema, type: string }
+      - { name: descripcion, label: Descripción, type: text }
+      - { name: ciudad, label: Ciudad, type: string }
+      - { name: correo, label: Correo, type: string }
+      - { name: instagram, label: Instagram, type: string }
+      - { name: mensaje_editorial, label: Mensaje editorial, type: text }
+      - { name: aviso, label: Aviso, type: text }
+  - name: ediciones
+    label: Ediciones mensuales
+    type: file
+    path: content/ediciones.json
+    format: json
+    list: true
+    fields:
+      - { name: id, label: ID AAAA-MM, type: string }
+      - { name: numero, label: Número, type: string }
+      - { name: mes, label: Mes, type: string }
+      - { name: anio, label: Año, type: string }
+      - { name: fecha, label: Fecha, type: string }
+      - { name: tema, label: Tema, type: string }
+      - { name: bajada, label: Bajada, type: text }
+      - { name: descripcion, label: Descripción, type: text }
+      - { name: estado, label: Estado, type: select, options: { values: [piloto, publicada] } }
+      - { name: portada, label: Portada, type: image }
+      - { name: pdf, label: PDF, type: file }
+  - name: articulos
+    label: Artículos
+    type: file
+    path: content/articulos.json
+    format: json
+    list: true
+    fields:
+      - { name: id, label: Identificador, type: string }
+      - { name: edicion, label: Edición AAAA-MM, type: string }
+      - { name: categoria, label: Categoría, type: string }
+      - { name: titulo, label: Título, type: string }
+      - { name: extracto, label: Extracto, type: text }
+      - { name: autor, label: Autor, type: string }
+      - { name: fecha, label: Fecha, type: string }
+      - { name: destacado, label: Destacado, type: boolean }
+      - { name: imagen, label: Imagen, type: image }
+      - { name: contenido, label: Cuerpo del artículo, type: text }
