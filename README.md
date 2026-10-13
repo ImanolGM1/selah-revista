@@ -7,3 +7,6 @@ Publicación cristiana de reflexión bíblica, cultura, fe y vida comunitaria pa
 El sitio web se publicará en GitHub Pages desde la rama `main` y permitirá gestionar los contenidos mediante Pages CMS.
 
 > Los contenidos piloto y testimonios requieren validación del equipo antes de su difusión definitiva.
+
+## Diseño vigente: Terracota y arena
+Colores oficiales: `#A65F4E` (Terracota), `#DFC3A7` (Arena), `#FAF3E9` (Marfil), `#46372F` (Espresso).\n
